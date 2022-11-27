@@ -74,7 +74,7 @@ export const gameView = {
 
             $("#game-debugJump").on("submit", (e) => {
                 e.preventDefault();
-                gameController.loadSection(<string> $("#game-debugNSection").val());
+                gameController.loadSection("sect" + <string> $("#game-debugNSection").val());
             });
 
             $("#game-debugRandomTable").on("submit", (e) => {
