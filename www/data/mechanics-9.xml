@@ -1301,7 +1301,13 @@
         </section>
 
         <section id="sect218">
-            <meal huntDisabled="true" />
+            <!-- TODO: Would be nice to show Use the Huntmastery discipline instead of "Hunting" -->
+            <test not="true" hasDiscipline="hntmstry">
+                <meal huntDisabled="true" />
+            </test>
+            <test hasDiscipline="hntmstry">
+                <meal />
+            </test>
         </section>
 
         <section id="sect219">
