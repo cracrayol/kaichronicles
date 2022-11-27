@@ -124,15 +124,8 @@
         </section>
 
         <section id="sect11">
-           <!-- TODO: Would be nice to show Use the Huntmastery discipline instead of "Hunting" -->
-            <test not="true" hasDiscipline="hntmstry">
-                <meal index="0" huntDisabled="true" />
-                <meal index="1" huntDisabled="true" />
-            </test>
-            <test hasDiscipline="hntmstry">
-                <meal index="0" />
-                <meal index="1" />
-            </test>
+            <meal index="0" />
+            <meal index="1" />
             <test canUseBow="false">
                 <choiceState section="sect171" set="disabled" />
             </test>
@@ -1003,13 +996,7 @@
         </section>
 
         <section id="sect175">
-            <!-- TODO: Would be nice to show Use the Huntmastery discipline instead of "Hunting" -->
-            <test not="true" hasDiscipline="hntmstry">
-                <meal huntDisabled="true" />
-            </test>
-            <test hasDiscipline="hntmstry">
-                <meal />
-            </test>
+            <meal />
             <choiceState section="sect281" set="disabled" />
             <test hasCircle="circleSpirit">
                 <choiceState section="sect281" set="enabled" />
@@ -1314,13 +1301,7 @@
         </section>
 
         <section id="sect218">
-            <!-- TODO: Would be nice to show Use the Huntmastery discipline instead of "Hunting" -->
-            <test not="true" hasDiscipline="hntmstry">
-                <meal huntDisabled="true" />
-            </test>
-            <test hasDiscipline="hntmstry">
-                <meal />
-            </test>
+            <meal />
         </section>
 
         <section id="sect219">
