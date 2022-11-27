@@ -124,8 +124,15 @@
         </section>
 
         <section id="sect11">
-            <meal index="0" huntDisabled="true" />
-            <meal index="1" huntDisabled="true" />
+           <!-- TODO: Would be nice to show Use the Huntmastery discipline instead of "Hunting" -->
+            <test not="true" hasDiscipline="hntmstry">
+                <meal index="0" huntDisabled="true" />
+                <meal index="1" huntDisabled="true" />
+            </test>
+            <test hasDiscipline="hntmstry">
+                <meal index="0" />
+                <meal index="1" />
+            </test>
             <test canUseBow="false">
                 <choiceState section="sect171" set="disabled" />
             </test>
