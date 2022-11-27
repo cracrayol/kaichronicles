@@ -996,7 +996,13 @@
         </section>
 
         <section id="sect175">
-            <meal huntDisabled="true" />
+            <!-- TODO: Would be nice to show Use the Huntmastery discipline instead of "Hunting" -->
+            <test not="true" hasDiscipline="hntmstry">
+                <meal huntDisabled="true" />
+            </test>
+            <test hasDiscipline="hntmstry">
+                <meal />
+            </test>
             <choiceState section="sect281" set="disabled" />
             <test hasCircle="circleSpirit">
                 <choiceState section="sect281" set="enabled" />
